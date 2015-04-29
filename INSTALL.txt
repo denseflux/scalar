@@ -92,3 +92,12 @@ rdfQuery (views/arbors/HTML5_RDFa/js/jquery.rdfquery.rules-1.0.js):
 
 CKEditor (views/widgets/ckeditor/.../):
 A few updates to core/htmlparser files, found by searching for 'Updated by Craig Dietrich'
+
+
+My customisations for Warwick:
+- grab from digihum github repo
+- need to AllowOverride All in httpd.conf
+- need to add LoadModule rewrite... to httpd.conf
+- need to change short_open_tag to on in /etc/php.d/zzz....
+- need to restart both php and httpd with sudo systemctl restart php-fpm
+
